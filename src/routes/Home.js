@@ -26,14 +26,14 @@ const Home = () => {
       <div className='card'>
         {/* <Link> */}
           <img src={COOKIES} width={200} />
-          <h3>cookies</h3>
+          <h3>Cookies</h3>
           {/* </Link> */}
         </div>
 
         <div className='card'>
           {/* <Link> */}
           <img src={CAKE} width={200} />
-          <h3>CAKE</h3>
+          <h3>Cake</h3>
           {/* </Link> */}
         </div>
 

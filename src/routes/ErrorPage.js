@@ -1,4 +1,5 @@
 import { useRouteError } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 const ErrorPage = () => {
@@ -11,6 +12,7 @@ const ErrorPage = () => {
     <p>
       <i>{error.statusText || error.message}</i>
     </p>
+    <Link to="/"><button className="">Go Home</button></Link>
   </div>
   )
 }
