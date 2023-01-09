@@ -37,9 +37,16 @@
     .hero__container{
         grid-template-columns: 1fr;
     }
+    .hero {
+        margin: 20px;
+        width: fit-content;
+    }
+    .hero h1{
+        font-size: 2rem;
+    }
     .hero__img img{
        width: 350px;
-       margin-top: -100px;
+       margin-top: 5px;
     }
   }
 
