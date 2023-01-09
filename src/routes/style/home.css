@@ -19,16 +19,17 @@
     margin: 10px;
 }
 .btn{
-    border: 1px solid #a02f11;
-    background-color: #a02f11;
+    border: 1px solid rgb(49, 25, 25);
+    background-color:rgb(49, 25, 25);
+    border-radius: 7px;
     color: white;
     cursor: pointer;
     transition: 0.7s;
 }
 .btn:hover{
-    border: 1px solid #a02f11;
+    border: 1px solid rgb(49, 25, 25);
     background-color: transparent;
-    color: #a02f11;
+    color:rgb(49, 25, 25);
 }
 
 
@@ -46,7 +47,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 50px;
-    margin-top: -47px;
+    margin-top: -40px;
     margin-left: 100px;
   }
   .card{

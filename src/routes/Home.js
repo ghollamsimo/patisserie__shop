@@ -19,7 +19,7 @@ const Home = () => {
       </div>
 
       <div className='hero__img'>
-        <img src={HERO} alt="" />
+        <img src={HERO} alt="" width={500} />
       </div>
       </div>
       <div className='cards'>
