@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap');
+.hero__container{
+    background-color: rgb(212, 209, 209);
+    display: grid;
+    grid-template-columns: 50% 40%;
+}
+.hero{
+    margin: 80px;
+}
+.hero h1{
+    font-size: 3rem ;
+    color: rgb(49, 25, 25);
+}
+.hero small{
+    color: rgb(63, 63, 63);
+    margin: 10px;
+}
+.button__container{
+    margin: 10px;
+}
+.btn{
+    border: 1px solid #a02f11;
+    background-color: #a02f11;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.btn:hover{
+    border: 1px solid #a02f11;
+    background-color: transparent;
+    color: #a02f11;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .hero__container{
+        grid-template-columns: 1fr;
+    }
+    .hero__img img{
+       width: 400px;
+       margin-top: -100px;
+    }
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px;
+    margin-top: -47px;
+    margin-left: 100px;
+  }
+  .card{
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: fit-content;
+    border-radius: 25px;
+    height: fit-content;
+  }
+  .card h3{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  @media screen and (max-width: 1024px) {
+   .cards{
+    grid-template-columns: 1fr 1fr;
+    margin: -0px;
+    margin-top: -20px;
+    margin-left: 0px;
+   }
+  }
