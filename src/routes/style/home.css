@@ -72,10 +72,13 @@
 
   @media screen and (max-width: 1024px) {
    .cards{
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     margin: -0px;
     margin-top: -20px;
     margin-left: 40px;
+   }
+   .card img{
+    width: 130px;
    }
   }
 
