@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
@@ -16,7 +16,8 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import ErrorPage from "./routes/ErrorPage";
-import SignupPage from './routes/SignupPage';
+import Signup from './routes/Signup';
+import Cart from './routes/Cart';
 
 const AppLayout = () => {
   return (
@@ -46,7 +47,11 @@ const router = createBrowserRouter([
       },
       {
         path:"signup",
-        element: <SignupPage/>,
+        element: <Signup/>,
+      },
+      {
+        path:"cart",
+        element:<Cart/>
       }
     ],
   },

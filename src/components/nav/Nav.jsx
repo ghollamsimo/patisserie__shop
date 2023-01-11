@@ -5,6 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import {RiAccountCircleLine} from "react-icons/ri"
 import { NavLink } from "react-router-dom";
+import {HiOutlineShoppingBag} from 'react-icons/hi'
 import LOGO from '../../assets/logo.png'
 import './nav.css'
 
@@ -57,6 +58,17 @@ const Nav = () => {
                 onClick={closeMobileMenu}
               >
                 Contact
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/cart"
+                className={({ isActive }) =>
+                  "nav-links" + (isActive ? " activated" : "")
+                }
+                onClick={closeMobileMenu}
+              >
+                <HiOutlineShoppingBag/>
               </NavLink>
             </li>
             <div className="login">
