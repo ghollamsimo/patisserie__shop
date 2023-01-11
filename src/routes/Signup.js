@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { LoadingButton } from "@mui/lab";
+import { Button } from "rsuite";
+// Default CSS
+import "rsuite/dist/rsuite.min.css";
 
 const Signup = () => {
   return (
@@ -25,9 +28,17 @@ const Signup = () => {
           />
         </div>
         <div className="d-grid gap-2 mt-3">
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
+          <Link to="/">
+        <LoadingButton
+              fullWidth
+              size="large"
+              type="submit"
+              variant="contained"
+              
+            >
+              Submit
+            </LoadingButton>
+            </Link>
         </div>
         <p className="forgot-password text-right mt-2">
           Forgot<Link to="/resetpassword"> password?</Link>
