@@ -93,8 +93,9 @@ export default function (props) {
             </button>
             </Link>
           </div>
+         
           <p className="text-center mt-2">
-            Forgot <a href="#">password?</a>
+            Forgot  <Link to="/resetpassword"> password?</Link>
           </p>
         </div>
       </form>

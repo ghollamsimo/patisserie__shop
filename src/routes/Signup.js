@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 
 const Signup = () => {
@@ -30,7 +30,7 @@ const Signup = () => {
           </button>
         </div>
         <p className="forgot-password text-right mt-2">
-          Forgot <a href="#">password?</a>
+          Forgot<Link to="/resetpassword"> password?</Link>
         </p>
       </div>
     </form>
