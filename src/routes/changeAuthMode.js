@@ -88,7 +88,7 @@ export default function (props) {
           </div>
           <div className="d-grid gap-2 mt-3">
             <Link to="/">
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btnbtn-primary">
               Submit
             </button>
             </Link>
