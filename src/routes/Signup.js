@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import { LoadingButton } from "@mui/lab";
 import { Button } from "rsuite";
@@ -6,6 +6,7 @@ import { Button } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
 
 const Signup = () => {
+  const [password, setPassword] = useState(false)
   return (
     <div className="Auth-form-container">
     <form className="Auth-form">

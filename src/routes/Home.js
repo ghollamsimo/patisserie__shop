@@ -26,28 +26,28 @@ const Home = () => {
       <div className='card'>
         {/* <Link> */}
           <img src={COOKIES} width={200} />
-          <h3>Cookies</h3>
+          <h4>Cookies</h4>
           {/* </Link> */}
         </div>
 
         <div className='card'>
           {/* <Link> */}
           <img src={CAKE} width={200} />
-          <h3>Cake</h3>
+          <h4>Cake</h4>
           {/* </Link> */}
         </div>
 
         <div className='card'>
           {/* <Link> */}
           <img src={SAND} width={200} />
-          <h3>Sandwich</h3>
+          <h4>Sandwich</h4>
           {/* </Link> */}
         </div>
 
         <div className='card'>
           {/* <Link> */}
           <img src={BREAD} width={200} />
-          <h3>Bread</h3>
+          <h4>Bread</h4>
           {/* </Link> */}
         </div>  
       </div>
